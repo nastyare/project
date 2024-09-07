@@ -1,0 +1,38 @@
+header#header {
+    height: 90px;
+    padding-left: 119px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-right: 119px;
+}
+
+
+div#name{
+    float: left;
+    width:fit-content
+}
+li {
+    display: inline;
+    padding: 5px;
+    float: right;
+    width: fit-content;
+}
+li#home {
+    color: #9370DB;
+}
+
+p#talk {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: medium;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+p#trav {
+    color:#8A2BE2;
+    font-size: large;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 0;
+    width: fit-content;
+}
