@@ -18,21 +18,31 @@ li {
     width: fit-content;
 }
 li#home {
-    color: #9370DB;
+    color: #8A53FF;
+    weight: 400;
+
 }
 
 p#talk {
     font-family: Brush Script MT, Brush Script Std, cursive;
     margin: 0;
-    width: fit-content;
+    width: 62.6px;
+    height: 25.65px;
+    top: 5.41px;
+    left: 0.82px;
     font-size: 25px;
+    color: #3E3E3E;
 }
 
 p#trav {
-    color:#8A2BE2;
+    color:#8A53FF;
     font-family: Arial, sans-serif;
     font-weight: 800;
     margin: 0;
+    width: 95.93px;
+    height: 23.12px;
+    top: 35.27px;
+    left: 3.46px;
     font-size: 30px;
     width: fit-content;
 }
@@ -40,9 +50,9 @@ p#trav {
 
 
 article#nextTrip {
-    width: 1440px;
-    height: 580px;
+    height: 530px;
     margin-left: 27px;
+    top: 90px;
     padding: 0px;
     background-image: url("images/nextTrip.jpg");
     background-size: cover; 
@@ -60,3 +70,101 @@ p#sharing {
     padding-left: 100px;
     margin: 0;
 }
+
+article#destination {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 350px;
+    margin: 0;
+    padding-top: 107px;
+    padding-right: 140px;
+    padding-bottom: 107px;
+    padding-left: 140px; 
+}
+
+img.person {
+    width: 540px;
+    height: 338px;
+    margin-right: 40px; 
+}
+
+div#textDest {
+    width: 580px; 
+    padding: 30px;
+}
+
+div#discover {
+    height: 550px;
+    padding-top: 24px;
+    padding-right: 119px;
+    padding-bottom: 70px;
+    padding-left: 119px;
+    gap: 48px;
+
+}
+
+div#discoverHeader {
+    height: 69px;
+    width: 1200px;
+    gap: 8px;
+}
+
+p#join {
+    height: 21px;
+    font-family: Roboto, sans-serif;
+    color: #8A53FF;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 6%;
+    line-height: 21.09px;
+}
+
+p#disWithUs {
+    height: 40px;
+    font-family: Changa One, sans-serif;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 40px;
+    text-align: center;
+    color: #434343;
+}
+div#locationCard {
+    height: 410px;
+    width: 1200px;
+}
+div.photoContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 410px;
+}
+div.card {
+    width: 300px;
+    height: 410px;
+    padding: 16px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+img.photo {
+    width: 268px;
+    height: 318px;
+    border-radius: 8px; 
+}
+
+div#forForm {
+    height: 850px;
+}
+
+article#catchup {
+    height: 700px;
+    padding: 83px 120px;
+    gap: 30px;
+}
+
+footer {
+    height: 80px;
+    padding: 32px 120px;
+}
+
