@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Home Page</title>
     <link href="https://fonts.googleapis.com/css?family=Changa+One:regular,italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     <link href="styles.css" type="text/css" rel="stylesheet"/>
 </head>
+
 <body>
     <header id="header">
-        <div id="name">
-            <p id="talk">Talking</p>
-            <p id="trav">Travel</p>
+        <div id="header-section">
+            <div id="name">
+                <p id="talk">Talking</p>
+                <p id="trav">Travel</p>
+            </div>
+           <nav id="menu">
+                <ul>
+                    <li id="home">Home</li>
+                    <li>Story</li>
+                    <li>Gallery</li>
+                    <li>Contact Us</li>
+                    <li><img src="images/lupa.jpg" width="20" height="20"> </li>
+                    <li><img src="images/profile.jpg" width="20" height="20"> </li>
+                </ul>
+            </nav>
         </div>
-       <nav id="menu">
-            <ul>
-                <li>Contact Us</li>
-                <li>Gallery</li>
-                <li>Story</li>
-                <li id="home">Home</li>
-            </ul>
-        </nav>
     </header>
-    <article id="nextTrip">
-            <h1 id="talkTrip"> <span id="lets">Let's talk</span> about <br/> your next trip!</h1>
-            <p id="sharing">Share your favorite travel destination and we will <br/> feature it in our next blog!</p>
-    </article>
 
-    <article id="destination">
+    <div id="next-trip">
+            <h1 id="talk-trip"> <span id="lets">Let's talk</span> about <br/> your next trip!</h1>
+            <p id="sharing">Share your favorite travel destination and we will <br/> 
+                feature it in our next blog!</p>
+            <div class="button-block">
+                <button class="colored-button">Share your story</button>
+                <button class="transparent-button">Watch highlights</button>
+            </div>
+    </div>
+
+    <div id="destination">
         <img src="images/destination.jpg" class="person">
-        <div id="textDest">
+        <div id="text-dest">
             <h4>FEATURED DESTINATION</h4>
             <h1>Our swiss adventure blog</h1>
             <p>Visiting the swiss alps? Want to know the requirements on traveling to Switzerland
                 during the pandemic? Our blog might help!
             </p>
         </div>
-    </article>
+    </div>
 
     <div id="discover">
-        <div id="discoverHeader">
+        <div id="discover-header">
             <p id="join">JOIN OUR ADVENTURES</h4>
-            <p id="disWithUs">Discover the world with us</h1>
+            <p id="discover-with-us">Discover the world with us</h1>
         </div>
 
-        <div id="locationCard">
-            <div class="photoContainer">
+        <div id="location-card">
+            <div class="photo-container">
                 <div class="card">
                     <img src="images/iceland.jpg" class="photo">
                 </div>
@@ -62,13 +74,13 @@
         </div>
     </div>
 
-    <div id="forForm">
+    <div id="for-form">
 
     </div>
 
-    <article id="catchup">
+    <div id="catchup">
 
-    </article>
+    </div>
 
     <footer>
 
