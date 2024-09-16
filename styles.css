@@ -1,68 +1,34 @@
 * {
     margin: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
     font-family: "BlackSignaturePersonalUseOnly";
     src: url('/project/fonts/BlackSignaturePersonalUseOnlyRegular.otf');
 }
-
-/* ЗАГОЛОВОК */
-header#header {
-    height: 90px;
-    padding-left: 1px 119px 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+@font-face {
+    font-family: "Roboto";
+    src: url('/project/fonts/ChangaOne-Regular.ttf');
+}
+@font-face {
+    font-family: "Changa One";
+    src: url('/project/fonts/ChangaOne-Regular.ttf');
 }
 
-div#header-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1202px;
-}
-
-div#name{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: fit-content;
-}
-
-ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 18px;
-    padding: 0;
-    margin: 0;    
-}
-li {
-    display: inline;
-    align-items: center;
-    padding: 0 5px;
-    cursor: pointer;
-}
-li#home {
-    color: #8A53FF;
-    weight: 400;
-}
-
-p#talk {
-    font-family: BlackSignaturePersonalUseOnly;
-    margin: 0;
-    font-size: 15px;
-    color: #3E3E3E;
-}
-
-p#trav {
+.purple-text {
     color:#8A53FF;
-    font-family: "Changa One", sans-serif;
-    margin: 0;
-    font-size: 28px;
 }
+
+.changa-one-text {
+    color: #434343;
+    font-family: Changa One;
+}
+
+.roboto-text {
+    font-family: Roboto;
+}
+
 
 
 /* ПРЫЖОК СО СКАЛЫ */
@@ -83,16 +49,14 @@ h1#talk-trip {
     padding-left: 100px;
     line-height: 84px;
     padding-top: 100px;
-    font-family: "Changa One", sans-serif;
+    font-family: Changa One, sans-serif;
     font-weight: 400;
 }
-span#lets {
-    color: #8A53FF;
-}
+
 p#sharing {
     padding-left: 100px;
     margin: 0;
-    font-family: "Roboto";
+    font-family: Roboto;
     color: #434343;
     line-height: 36px;
     font-size: 22px;
@@ -113,6 +77,7 @@ img.person {
 .colored-button {
     background-color: #8A53FF;
     color: white;
+    border: none;
     border-radius: 4px;
     height: 46px;
     width: 165px;
@@ -120,9 +85,10 @@ img.person {
 }
 .transparent-button {
     color: #434343;
+    border: none;
     background-color: white;
     border-color: white;
-    font-family: "Roboto";
+    font-family: Roboto;
 }
 
 div#destination {
@@ -137,84 +103,101 @@ div#destination {
     padding-left: 140px; 
 }
 
-
-
 div#text-dest {
     width: 580px; 
     padding: 30px;
 }
 
 div#discover {
-    height: 550px;
-    padding-top: 24px;
-    padding-right: 119px;
-    padding-bottom: 70px;
-    padding-left: 119px;
+    display: flex;
+    flex-direction: column;
     gap: 48px;
-
+    align-items: center;
 }
 
+
 div#discover-header {
-    height: 69px;
-    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
     gap: 8px;
 }
 
-p#join {
-    height: 21px;
+.join {
     font-family: Roboto, sans-serif;
     color: #8A53FF;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
     letter-spacing: 6%;
-    line-height: 21.09px;
+    margin: 0;
 }
 
-p#discover-with-us {
-    height: 40px;
-    font-family: "Changa One";
+.second-part {
+    font-family: Changa One, sans-serif;
     font-weight: 400;
     font-size: 39px;
-    line-height: 40px;
     text-align: center;
     color: #434343;
+    margin: 5px 0;
 }
+
 div#location-card {
-    height: 410px;
-    width: 1200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
 div.photo-container {
     display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    height: 410px;
+    justify-content: center;
+    gap: 24px;
+    width: 80%;
 }
+.left-photos {
+    display: flex;
+    justify-content: space-between;
+}
+.right-photos {
+    display: flex;
+    justify-content: space-between;
+}
+
 div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
-    height: 410px;
     padding: 16px;
     gap: 10px;
     box-sizing: border-box;
 }
+
 img.photo {
-    width: 268px;
-    height: 318px;
+    width: 100%;
+    height: 317px;
     border-radius: 8px; 
 }
-
-div#for-form {
-    height: 850px;
+p.location-name {
+    font-family: Changa One, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #434343;
 }
 
-article#catchup {
-    height: 700px;
-    padding: 83px 120px;
-    gap: 30px;
+a.discover-link {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8A53FF;
+    text-decoration: none;
+    margin-top: 5px;
 }
 
-footer {
-    height: 80px;
-    padding: 32px 120px;
-}
+
+
+
+
 
