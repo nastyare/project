@@ -8,6 +8,8 @@
     <link href="/project/styles/header.css" type="text/css" rel="stylesheet"/>
     <link href="/project/styles/footer.css" type="text/css" rel="stylesheet"/>
     <link href="/project/styles/catchup.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/styles/destination.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/styles/discover-the-world-section.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -42,12 +44,18 @@
 
     <div id="destination">
         <img src="images/destination.jpg" class="person">
-        <div id="text-dest">
-            <h4 class="purple-text">FEATURED DESTINATION</h4>
-            <h1 class="changa-one-text">Our swiss adventure blog</h1>
-            <p class="roboto-text">Visiting the swiss alps? Want to know the requirements on traveling to Switzerland
-                during the pandemic? Our blog might help!
-            </p>
+        <div id="destination-blurb">
+            <div id="dest-text">
+                <h4 class="purple-text">FEATURED DESTINATION</h4>
+                <h1 class="changa-one-text">Our swiss adventure blog</h1>
+                <p class="roboto-text">Visiting the swiss alps? Want to know the requirements 
+                    <br/>on traveling to Switzerland during the pandemic? 
+                    <br/>Our blog might help!
+                </p>
+            </div>
+            <div id="destination-cta">
+                <button class="cta-button">Watch now</button>
+            </div>
         </div>
     </div>
 
@@ -60,29 +68,40 @@
 
         <div id="location-card">
             <div class="photo-container">
-                <div class="left-photos">
+                <div class="two-photos">
                     <div class="card">
                         <img src="images/iceland.jpg" class="photo">
-                        <p class="location-name">Iceland</p>
-                        <a href="#" class="discover-link">Discover</a>
-                    </div>
-                    <div class="card">
+                        <div class="card-title">
+                            <p class="location-name">Iceland</p>
+                            <p class="discover-link">Discover</p>
+                        </div>
+                        </div>
+                        
+                    <div class="card">                        
                         <img src="images/italy.png" class="photo">
-                        <p class="location-name">Italy</p>
-                        <a href="#" class="discover-link">Discover</a>
+                        <div class="card-title">
+                            <p class="location-name">Italy</p>
+                            <p class="discover-link">Discover</p>
+                        </div>                      
                     </div>
                 </div>
+            </div>
                 
-                <div class="right-photos">
+            <div class="photo-container">
+                <div class="two-photos">
                     <div class="card">
                         <img src="images/dubai.png" class="photo">
-                        <p class="location-name">Dubai</p>
-                        <a href="#" class="discover-link">Discover</a>
+                        <div class="card-title">
+                            <p class="location-name">Dubai</p>
+                            <p class="discover-link">Discover</p> 
+                        </div>
                     </div>
                     <div class="card">
                         <img src="images/patagonia.jpg" class="photo">
-                        <p class="location-name">Patagonia</p>
-                        <a href="#" class="discover-link">Discover</a>
+                        <div class="card-title">
+                            <p class="location-name">Patagonia</p>
+                            <p class="discover-link">Discover</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -131,6 +150,7 @@
         </div>
     </div>
 
+    <!-- Для перечисления статей -->
     <div id="catchup">
         <div id="recent-posts">
             <h4 class="join">CATCH UP TO OUR POSTS</h4>
