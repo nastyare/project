@@ -1,0 +1,36 @@
+div#destination {
+    display: flex; 
+    justify-content: space-around; 
+    height: 550px;
+    margin: 0;
+
+}
+
+div#destination-blurb {
+    width: 580px; 
+    padding: 30px;
+    margin-top: 107px;
+    margin-right: 140px;
+}
+
+div#dest-text {
+    padding: 30px;
+    gap: 8px;
+}
+.cta-button {
+    margin-left: 30px;
+    margin-top: 24px;
+    color: #8A53FF;
+    background-color: white;  
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+}
+img.person {
+    width: 540px;
+    height: 338px;
+    border-radius: 8px;
+    margin-top: 107px;
+    margin-left: 140px;
+}

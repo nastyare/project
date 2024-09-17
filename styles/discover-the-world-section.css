@@ -1,0 +1,91 @@
+div#discover {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    height: 621px;
+    margin: 0;
+}
+
+
+div#discover-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    gap: 8px;
+}
+
+.join {
+    font-family: Roboto, sans-serif;
+    color: #8A53FF;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 6%;
+    margin: 0;
+}
+
+.second-part {
+    font-family: Changa One, sans-serif;
+    font-weight: 400;
+    font-size: 39px;
+    text-align: center;
+    color: #434343;
+    margin: 5px 0;
+}
+
+div#location-card {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 119px;
+    height: 410px;
+    width: 1200px;
+}
+
+div.photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 600px;
+}
+.two-photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 16px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+img.photo {
+    width: 100%;
+    border-radius: 8px; 
+}
+
+.card-title {
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+p.location-name {
+    font-family: Changa One, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #434343;
+    text-align: center;
+}
+
+p.discover-link {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8A53FF;
+    text-decoration: none;
+    text-align: center;
+}
