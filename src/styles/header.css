@@ -33,11 +33,10 @@ li {
     display: inline;
     align-items: center;
     padding: 0 5px;
-    cursor: pointer;
 }
 li#home {
     color: #8A53FF;
-    weight: 400;
+    font-weight: 400;
 }
 
 p#talk {

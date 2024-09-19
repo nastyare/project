@@ -1,0 +1,65 @@
+div#catchup {
+    height: 600px;
+    padding: 83px 120px;
+    gap: 30px;
+}
+
+div#recent-posts {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div#articles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 478px;
+    margin-top: 30px;
+}
+
+div#main-article {
+    flex: 1;
+    margin-right: 20px;
+    height: 476px;
+}
+.changa-one-font {
+    font-family: Changa One;
+    font-weight: 400;
+    font-size: 24px;
+    color: #434343;
+}
+div#group-of-articles {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.story {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.story img {
+    width: 200px; 
+    height: 128px;
+    margin-right: 10px; 
+}
+
+.story-text {
+    flex: 1;
+}
+
+.story h4 {
+    margin: 0;
+    font-size: 24px;
+    font-family: Changa One;
+    color: #434343;
+}
+
+.story p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    font-family: Roboto;
+}
+

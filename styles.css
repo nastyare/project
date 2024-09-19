@@ -5,15 +5,15 @@
 
 @font-face {
     font-family: "BlackSignaturePersonalUseOnly";
-    src: url('/project/fonts/BlackSignaturePersonalUseOnlyRegular.otf');
+    src: url('/project/src/fonts/BlackSignaturePersonalUseOnlyRegular.otf');
 }
 @font-face {
     font-family: "Roboto";
-    src: url('/project/fonts/ChangaOne-Regular.ttf');
+    src: url('/project/src/fonts/ChangaOne-Regular.ttf');
 }
 @font-face {
     font-family: "Changa One";
-    src: url('/project/fonts/ChangaOne-Regular.ttf');
+    src: url('/project/src/fonts/ChangaOne-Regular.ttf');
 }
 
 .purple-text {
@@ -23,22 +23,24 @@
 .changa-one-text {
     color: #434343;
     font-family: Changa One;
+    font-weight: 400;
 }
 
 .roboto-text {
     font-family: Roboto;
+    font-weight: 400;
 }
 
 
 
-/* ПРЫЖОК СО СКАЛЫ */
+/* 1-ЫЙ БЛОК */
 div#next-trip {
     display: flex;
     flex-direction: column;
     height: 530px;
     width: 100%;
     padding: 0;
-    background-image: url("images/nextTrip.jpg");
+    background-image: url("/project/src/images/nextTrip.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
 }

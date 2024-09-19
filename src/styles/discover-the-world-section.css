@@ -39,13 +39,12 @@ div#location-card {
     justify-content: space-between;
     margin-left: 119px;
     height: 410px;
-    width: 1200px;
+    margin-right: 119px;
 }
 
 div.photo-container {
     display: flex;
     justify-content: center;
-    gap: 24px;
     width: 600px;
 }
 .two-photos {

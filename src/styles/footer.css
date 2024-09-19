@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info {
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 15px;
+    color: #939EB4;
+}
+
+.footer-menu {
+    margin-top: 12px;
+    margin-right: 120px;
+    color: #939EB4;
+    width: 300px;
+}

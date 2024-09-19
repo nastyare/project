@@ -3,13 +3,13 @@
 
 <head>
     <title>Home Page</title>
-    <link href="/project/styles/form.css" type="text/css" rel="stylesheet"/>
-    <link href="styles.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/styles/header.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/styles/footer.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/styles/catchup.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/styles/destination.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/styles/discover-the-world-section.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/form.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/header.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/footer.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/catchup.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/destination.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/discover-the-world-section.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -25,8 +25,8 @@
                     <li>Story</li>
                     <li>Gallery</li>
                     <li>Contact Us</li>
-                    <li><img src="images/lupa.jpg" width="20" height="20"> </li>
-                    <li><img src="images/profile.jpg" width="20" height="20"> </li>
+                    <li><img src="/project/src/images/lupa.jpg" width="20" height="20"> </li>
+                    <li><img src="/project/src/images/profile.jpg" width="20" height="20"> </li>
                 </ul>
             </nav>
         </div>
@@ -43,7 +43,7 @@
     </div>
 
     <div id="destination">
-        <img src="images/destination.jpg" class="person">
+        <img src="/project/src/images/destination.jpg" class="person">
         <div id="destination-blurb">
             <div id="dest-text">
                 <h4 class="purple-text">FEATURED DESTINATION</h4>
@@ -70,7 +70,7 @@
             <div class="photo-container">
                 <div class="two-photos">
                     <div class="card">
-                        <img src="images/iceland.jpg" class="photo">
+                        <img src="/project/src/images/iceland.jpg" class="photo">
                         <div class="card-title">
                             <p class="location-name">Iceland</p>
                             <p class="discover-link">Discover</p>
@@ -78,7 +78,7 @@
                         </div>
                         
                     <div class="card">                        
-                        <img src="images/italy.png" class="photo">
+                        <img src="/project/src/images/italy.png" class="photo">
                         <div class="card-title">
                             <p class="location-name">Italy</p>
                             <p class="discover-link">Discover</p>
@@ -90,14 +90,14 @@
             <div class="photo-container">
                 <div class="two-photos">
                     <div class="card">
-                        <img src="images/dubai.png" class="photo">
+                        <img src="/project/src/images/dubai.png" class="photo">
                         <div class="card-title">
                             <p class="location-name">Dubai</p>
                             <p class="discover-link">Discover</p> 
                         </div>
                     </div>
                     <div class="card">
-                        <img src="images/patagonia.jpg" class="photo">
+                        <img src="/project/src/images/patagonia.jpg" class="photo">
                         <div class="card-title">
                             <p class="location-name">Patagonia</p>
                             <p class="discover-link">Discover</p>
@@ -159,19 +159,50 @@
 
         <div id="articles">
             <div id="main-article">
-                <img src="/project/images/switzerland.jpg" width="560" height="358">
+                <img src="/project/src/images/switzerland.jpg" width="560" height="358">
                 <h2 class="changa-one-font">Zermatt, Switzerland</h2>
                 <p>Marvel on the beauty of the iconic Matterhorn. 
                 Find the best places to stay that has<br/>the best views of this peak...</p>
             </div>
             <div id="group-of-articles">
-
+                <div class="story">
+                    <img src="/project/src/images/italy.png">
+                    <div class="story-text">
+                        <h4>Tuskany, Italy</h4>
+                        <p>The amazing Tuscany is home to famous Renaissance art and
+                             architecture and a vast scenic landscape. view full blog...</p>
+                    </div>
+                </div>
+                <div class="story">
+                    <img src="/project/src/images/kyoto.jpg">
+                    <div class="story-text">
+                        <h4>Kyoto, Japan</h4>
+                        <p>Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. 
+                            It’s time to visit tokyo. view full blog...</p>
+                    </div>  
+                </div>
+                <div class="story">
+                    <img src="/project/src/images/norway.jpg">
+                    <div class="story-text">
+                        <h4>Lofoten Islands, Norway</h4>
+                        <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing 
+                            island is perfect for your next postcard.  view full blog...</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <footer>
-
+        <div class="info">
+            <p>© 2022, Talking Travel. All Rights Reserved.</p>
+        </div>
+        <ul class="footer-menu">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+        </ul>
     </footer>
 
 </body>

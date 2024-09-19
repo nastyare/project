@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Article Page</title>
+    <link href="/project/src/styles/header.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/form.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/footer.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/article.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-section">
+            <div id="name">
+                <p id="talk">Talking</p>
+                <p id="trav">Travel</p>
+            </div>
+           <nav id="menu">
+                <ul>
+                    <li class="purple-text">Home</li>
+                    <li>Story</li>
+                    <li>Gallery</li>
+                    <li>Contact Us</li>
+                    <li><img src="images/lupa.jpg" width="20" height="20"> </li>
+                    <li><img src="images/profile.jpg" width="20" height="20"> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="article">
+
+    </div>
+
+
+    <div id="for-form">
+        <div id="form-container">
+            <div id="build-community">
+                <h4 class="join">LET'S BUILD A COMMUNITY</h4>
+                <h1 class="second-part">Join our next destination</h1>
+            </div>
+
+            <form id="destination-form">
+                <h2 class="changa-one-font">Share your story</h2>
+                <p>Suggest a new travel destination that you want to see and we will
+                <br/>feature it in our blog.</p>
+
+                <input type="text" id="destination-name" name="destination-name" placeholder="Destination name">
+    
+                <select id="country-destination" name="country-destination">
+                    <option value="" disabled selected>Country of Destination</option>
+                    <option value="australia">Australia</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="new-zealand">New Zealand</option>
+                    <option value="brazilia">Brazilia</option>
+                </select>
+        
+                <input type="text" id="your-name" name="your-name" placeholder="Your name">
+        
+                <select id="shooting-category" name="shooting-category">
+                    <option value="" disabled selected>Shooting category</option>
+                    <option value="nature">Nature</option>
+                    <option value="architecture">Architecture</option>
+                    <option value="people">People</option>
+                    <option value="wildlife">Wildlife</option>
+                </select>
+        
+                
+                <textarea id="photo-description" name="photo-description" rows="4" 
+                placeholder="Describe what kind of photos you want to focus on"></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="info">
+            <p>© 2022, Talking Travel. All Rights Reserved.</p>
+        </div>
+        <ul class="footer-menu">
+            <li>Home</li>
+            <li>Blog</li>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+        </ul>
+    </footer>
+</body>
+</html>
