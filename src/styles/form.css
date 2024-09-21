@@ -3,7 +3,7 @@ div#for-form {
     justify-content: center;
     align-items: center;
     height: 800px;
-    background-image: url('/project/images/form.jpg');
+    background-image: url('/project/src/images/form.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
