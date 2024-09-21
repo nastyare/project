@@ -33,63 +33,6 @@
 
 
 
-/* 1-ЫЙ БЛОК */
-div#next-trip {
-    display: flex;
-    flex-direction: column;
-    height: 530px;
-    width: 100%;
-    padding: 0;
-    background-image: url("/project/src/images/nextTrip.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-}
-
-
-h1#talk-trip {
-    font-size: 73px;
-    padding-left: 100px;
-    line-height: 84px;
-    padding-top: 100px;
-    font-family: Changa One, sans-serif;
-    font-weight: 400;
-}
-
-p#sharing {
-    padding-left: 100px;
-    margin: 0;
-    font-family: Roboto;
-    color: #434343;
-    line-height: 36px;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.button-block {
-    display: flex;
-    gap: 24px;
-    width: 360px;
-    height: 46px;
-    padding-left: 100px;
-}
-.colored-button {
-    background-color: #8A53FF;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    height: 46px;
-    width: 165px;
-    border-color: #8A53FF;
-}
-.transparent-button {
-    color: #434343;
-    border: none;
-    background-color: white;
-    border-color: white;
-    font-family: Roboto;
-}
-
-
 
 
 
