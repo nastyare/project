@@ -1,9 +1,10 @@
 footer {
     display: flex;
-    height: 50px;
     flex-direction: row;
     justify-content: space-around;
+    height: 50px;
 }
+
 .info {
     width: 400px;
     margin-left: 60px;
@@ -12,6 +13,7 @@ footer {
 }
 
 .footer-menu {
+    align-items: flex-start;
     margin-top: 12px;
     margin-right: 120px;
     color: #939EB4;
