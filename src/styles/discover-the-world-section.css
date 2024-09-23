@@ -1,21 +1,20 @@
-div#discover {
+.discover {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 48px;
     height: 621px;
-    margin: 0;
+    padding: 24px 119px 70px 119px;
 }
 
 
-div#discover-header {
+.discover-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 24px;
     gap: 8px;
 }
-
-.join {
+.discover-header h4 {
     font-family: Roboto, sans-serif;
     color: #8A53FF;
     font-weight: 700;
@@ -24,8 +23,7 @@ div#discover-header {
     letter-spacing: 6%;
     margin: 0;
 }
-
-.second-part {
+.discover-header p {
     font-family: Changa One, sans-serif;
     font-weight: 400;
     font-size: 39px;
@@ -34,53 +32,42 @@ div#discover-header {
     margin: 5px 0;
 }
 
-div#location-card {
+
+.location-card {
     display: flex;
     justify-content: space-between;
-    margin-left: 119px;
     height: 410px;
-    margin-right: 119px;
+    margin-top: 48px;
 }
-
-div.photo-container {
-    display: flex;
-    justify-content: center;
-    width: 600px;
-}
-.two-photos {
-    display: flex;
-    justify-content: space-between;
-}
-
-div.card {
+.card {
+    width:25%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    width: 300px;
     padding: 16px;
     gap: 10px;
     box-sizing: border-box;
 }
-
 img.photo {
     width: 100%;
     border-radius: 8px; 
 }
-
 .card-title {
-    justify-content: center;
-    margin-top: 10px;
-    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 8px;
 }
-p.location-name {
+.location-name {
     font-family: Changa One, sans-serif;
     font-weight: 400;
     font-size: 22px;
     color: #434343;
     text-align: center;
 }
-
-p.discover-link {
+.discover-link {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;

@@ -1,54 +1,65 @@
-div#next-trip {
+.next-trip {
     display: flex;
     flex-direction: column;
-    height: 530px;
-    width: 100%;
-    padding: 0;
+    height: 550px;
     background-image: url("/project/src/images/nextTrip.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
 }
-
-
-h1#talk-trip {
-    font-size: 73px;
-    padding-left: 100px;
+.next-trip h1 {
+    margin-left: 124px;
+    margin-top: 130px;
     line-height: 84px;
-    padding-top: 100px;
     font-family: Changa One, sans-serif;
     font-weight: 400;
+    font-size: 73px;
+    color:#434343;
 }
-
-p#sharing {
-    padding-left: 100px;
-    margin: 0;
+.next-trip p {
+    margin-left: 124px;
+    margin-top: 12px;
     font-family: Roboto;
     color: #434343;
     line-height: 36px;
     font-size: 22px;
     font-weight: 400;
 }
+.next-trip span {
+    color:#8A53FF;
+}
+
 
 .button-block {
     display: flex;
-    gap: 24px;
-    width: 360px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 22px;
+    width: 25%;
     height: 46px;
-    padding-left: 100px;
+    margin-left: 124px;
+    margin-top: 34px;
 }
-.colored-button {
+button#colored-btn {
     background-color: #8A53FF;
-    color: white;
     border: none;
     border-radius: 4px;
     height: 46px;
     width: 165px;
-    border-color: #8A53FF;
-}
-.transparent-button {
-    color: #434343;
-    border: none;
-    background-color: white;
-    border-color: white;
+    color: white;
     font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+button#transparent-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #434343;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+    gap: 10px; 
 }

@@ -1,35 +1,58 @@
-div#destination {
+.destination {
     display: flex; 
+    flex-direction: row;
     justify-content: space-around; 
-    height: 550px;
-    margin: 0;
+    height: 350px;
+    padding: 107px 140px;
 }
 
-div#destination-blurb {
-    width: 580px; 
-    padding: 30px;
-    margin-top: 107px;
-    margin-right: 140px;
+img.person {
+    height: 338px;
+    padding-right: 40px;
+    border-radius: 8px;
+    width: 50%;
 }
 
-div#dest-text {
+.destination-blurb {
+    width: 50%; 
+    height: 290px;
     padding: 30px;
-    gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
 }
-.cta-button {
-    margin-left: 30px;
-    margin-top: 24px;
-    color: #8A53FF;
-    background-color: white;  
+.destination-blurb h4 {
     font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color:#8A53FF;
+}
+.destination-blurb h1 {
+    margin-top: 8px;
+    font-family: Changa One;
+    font-weight: 400;
+    font-size: 39px;
+    color: #434343;
+}
+.destination-blurb p {
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #434343;
+}
+
+
+button#cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    height: 36px;
+    gap: 10px;
+    color: #8A53FF;
+    background-color: transparent;  
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
     border: none;
-}
-img.person {
-    width: 540px;
-    height: 338px;
-    border-radius: 8px;
-    margin-top: 107px;
-    margin-left: 140px;
 }
