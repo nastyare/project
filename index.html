@@ -3,7 +3,7 @@
 
 <head>
     <title>Home Page</title>
-    <link href="/project/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/general.css" type="text/css" rel="stylesheet"/>
     <link href="/project/src/styles/header.css" type="text/css" rel="stylesheet"/>
     <link href="/project/src/styles/next-trip.css" type="text/css" rel="stylesheet"/>
     <link href="/project/src/styles/destination.css" type="text/css" rel="stylesheet"/>
@@ -14,16 +14,16 @@
 </head>
 
 <body>
-    <header id="header">
-        <div id="header-section">
-            <div id="name">
-                <p id="talk">Talking</p>
-                <p id="trav">Travel</p>
+    <header class="header">
+        <div class="header-section">
+            <div class="name">
+                <p id="talking">Talking</p>
+                <p id="travel">Travel</p>
             </div>
-           <nav id="menu">
+           <nav>
                 <ul>
-                    <li class="purple-text">Home</li>
-                    <li>Story</li>
+                    <li class="home">Home</li>
+                    <li><a href="blog-article-page.html">Story</a></li>
                     <li>Gallery</li>
                     <li>Contact Us</li>
                     <li><img src="/project/src/images/lupa.jpg" width="20" height="20"> </li>
@@ -33,139 +33,138 @@
         </div>
     </header>
 
-    <div id="next-trip">
-            <h1 id="talk-trip"> <span class="purple-text">Let's talk</span> about <br/> your next trip!</h1>
-            <p id="sharing">Share your favorite travel destination and we will <br/> 
+
+    <!-- Вступление -->
+    <div class="next-trip">
+            <h1><span>Let's talk</span> about <br/> your next trip!</h1>
+            <p>Share your favorite travel destination and we will <br/> 
                 feature it in our next blog!</p>
             <div class="button-block">
-                <button class="colored-button">Share your story</button>
-                <button class="transparent-button">Watch highlights</button>
+                <button id="colored-btn">Share your story</button>
+                <button id="transparent-btn"><img src="/project/src/images/button.jpg" height="20"> 
+                    Watch highlights
+                </button>
             </div>
     </div>
 
-    <div id="destination">
+
+    <!-- Блок с Альпами -->
+    <div class="destination">
         <img src="/project/src/images/destination.jpg" class="person">
-        <div id="destination-blurb">
-            <div id="dest-text">
-                <h4 class="purple-text">FEATURED DESTINATION</h4>
-                <h1 class="changa-one-text">Our swiss adventure blog</h1>
-                <p class="roboto-text">Visiting the swiss alps? Want to know the requirements 
-                    <br/>on traveling to Switzerland during the pandemic? 
-                    <br/>Our blog might help!
-                </p>
-            </div>
-            <div id="destination-cta">
-                <button class="cta-button">Watch now</button>
-            </div>
+        <div class="destination-blurb">
+            <h4>FEATURED DESTINATION</h4>
+            <h1>Our swiss adventure blog</h1>
+            <p>Visiting the swiss alps? Want to know the requirements 
+                <br/>on traveling to Switzerland during the pandemic? 
+                <br/>Our blog might help!
+            </p>
+
+            <button id="cta-btn"><img src="/project/src/images/round-button.jpg" height="34"> Watch now</button>
+
         </div>
     </div>
 
-    <!--3 часть -->
-    <div id="discover">
-        <div id="discover-header">
-            <p class="join">JOIN OUR ADVENTURES</h4>
-            <p class="second-part">Discover the world with us</h1>
+    <!-- Варианты направлений -->
+    <div class="discover">
+        <div class="discover-header">
+            <h4>JOIN OUR ADVENTURES</h4>
+            <p>Discover the world with us</h1>
         </div>
 
-        <div id="location-card">
-            <div class="photo-container">
-                <div class="two-photos">
-                    <div class="card">
-                        <img src="/project/src/images/iceland.jpg" class="photo">
-                        <div class="card-title">
-                            <p class="location-name">Iceland</p>
-                            <p class="discover-link">Discover</p>
-                        </div>
-                        </div>
+        <div class="location-card">
+            <div class="card">
+                <img src="/project/src/images/iceland.jpg" class="photo">
+                <div class="card-title">
+                    <p class="location-name">Iceland</p>
+                    <p class="discover-link">Discover</p>
+                </div>
+            </div>
                         
-                    <div class="card">                        
-                        <img src="/project/src/images/italy.png" class="photo">
-                        <div class="card-title">
-                            <p class="location-name">Italy</p>
-                            <p class="discover-link">Discover</p>
-                        </div>                      
-                    </div>
+            <div class="card">                        
+                <img src="/project/src/images/italy.png" class="photo">
+                <div class="card-title">
+                    <p class="location-name">Italy</p>
+                    <p class="discover-link">Discover</p>
+                </div>                      
+            </div>
+
+            <div class="card">
+                <img src="/project/src/images/dubai.png" class="photo">
+                <div class="card-title">
+                    <p class="location-name">Dubai</p>
+                    <p class="discover-link">Discover</p> 
                 </div>
             </div>
-                
-            <div class="photo-container">
-                <div class="two-photos">
-                    <div class="card">
-                        <img src="/project/src/images/dubai.png" class="photo">
-                        <div class="card-title">
-                            <p class="location-name">Dubai</p>
-                            <p class="discover-link">Discover</p> 
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="/project/src/images/patagonia.jpg" class="photo">
-                        <div class="card-title">
-                            <p class="location-name">Patagonia</p>
-                            <p class="discover-link">Discover</p>
-                        </div>
-                    </div>
+
+            <div class="card">
+                <img src="/project/src/images/patagonia.jpg" class="photo">
+                <div class="card-title">
+                    <p class="location-name">Patagonia</p>
+                    <p class="discover-link">Discover</p>
                 </div>
-            </div>
+            </div>                                      
         </div>
     </div>
 
     <!-- Форма для присоединения -->
-    <div id="for-form">
-        <div id="form-container">
-            <div id="build-community">
-                <h4 class="join">LET'S BUILD A COMMUNITY</h4>
-                <h1 class="second-part">Join our next destination</h1>
+    <div class="for-form">
+        <div class="form-container">
+            <div class="build-community">
+                <h4>LET'S BUILD A COMMUNITY</h4>
+                <h1>Join our next destination</h1>
             </div>
 
-            <form id="destination-form">
-                <h2 class="changa-one-font">Share your story</h2>
+            <form>
+                <h2>Share your story</h2>
                 <p>Suggest a new travel destination that you want to see and we will
                 <br/>feature it in our blog.</p>
 
-                <input type="text" id="destination-name" name="destination-name" placeholder="Destination name">
+                <div class="form-fields">
+                    <input type="text" id="destination-name" name="destination-name" placeholder="Destination name">
     
-                <select id="country-destination" name="country-destination">
-                    <option value="" disabled selected>Country of Destination</option>
-                    <option value="australia">Australia</option>
-                    <option value="mexico">Mexico</option>
-                    <option value="new-zealand">New Zealand</option>
-                    <option value="brazilia">Brazilia</option>
-                </select>
-        
-                <input type="text" id="your-name" name="your-name" placeholder="Your name">
-        
-                <select id="shooting-category" name="shooting-category">
-                    <option value="" disabled selected>Shooting category</option>
-                    <option value="nature">Nature</option>
-                    <option value="architecture">Architecture</option>
-                    <option value="people">People</option>
-                    <option value="wildlife">Wildlife</option>
-                </select>
-        
+                    <select id="country-destination" name="country-destination">
+                        <option value="" disabled selected>Country of Destination</option>
+                        <option value="australia">Australia</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="new-zealand">New Zealand</option>
+                        <option value="brazilia">Brazilia</option>
+                    </select>
+            
+                    <input type="text" id="your-name" name="your-name" placeholder="Your name">
+            
+                    <select id="shooting-category" name="shooting-category">
+                        <option value="" disabled selected>Shooting category</option>
+                        <option value="nature">Nature</option>
+                        <option value="architecture">Architecture</option>
+                        <option value="people">People</option>
+                        <option value="wildlife">Wildlife</option>
+                    </select>
+                            
+                    <textarea id="photo-description" name="photo-description" rows="4" 
+                    placeholder="Describe what kind of photos you want to focus on"></textarea>
+                </div>
                 
-                <textarea id="photo-description" name="photo-description" rows="4" 
-                placeholder="Describe what kind of photos you want to focus on"></textarea>
-        
-                <button type="submit">Submit</button>
+                <button class="submit-btn">Submit</button>
+                
             </form>
         </div>
     </div>
 
     <!-- Для перечисления статей -->
-    <div id="catchup">
-        <div id="recent-posts">
-            <h4 class="join">CATCH UP TO OUR POSTS</h4>
-            <h2 class="second-part">Recent story entries</h2>
+    <div class="catchup-section">
+        <div class="recent-posts">
+            <h4>CATCH UP TO OUR POSTS</h4>
+            <h2>Recent story entries</h2>
         </div>
 
-        <div id="articles">
-            <div id="main-article">
+        <div class="articles">
+            <div class="main-article">
                 <img src="/project/src/images/switzerland.jpg" width="560" height="358">
-                <h2 class="changa-one-font">Zermatt, Switzerland</h2>
+                <h2>Zermatt, Switzerland</h2>
                 <p>Marvel on the beauty of the iconic Matterhorn. 
                 Find the best places to stay that has<br/>the best views of this peak...</p>
             </div>
-            <div id="group-of-articles">
+            <div class="group-of-articles">
                 <div class="story">
                     <img src="/project/src/images/italy.png">
                     <div class="story-text">
