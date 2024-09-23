@@ -2,6 +2,10 @@
     margin: 0;
     overflow-x: hidden;
 }
+a {
+    text-decoration: none;
+    color: #000;
+}
 
 @font-face {
     font-family: "BlackSignaturePersonalUseOnly";
@@ -14,21 +18,6 @@
 @font-face {
     font-family: "Changa One";
     src: url('/project/src/fonts/ChangaOne-Regular.ttf');
-}
-
-.purple-text {
-    color:#8A53FF;
-}
-
-.changa-one-text {
-    color: #434343;
-    font-family: Changa One;
-    font-weight: 400;
-}
-
-.roboto-text {
-    font-family: Roboto;
-    font-weight: 400;
 }
 
 
