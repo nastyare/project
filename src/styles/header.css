@@ -1,25 +1,24 @@
-header#header {
+.header {
     height: 90px;
-    padding-left: 1px 119px 2px;
+    padding: 1px 119px;
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    width: 85%
 }
-
-div#header-section {
+.header-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1202px;
 }
 
-div#name{
+
+.name{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: fit-content;
 }
+
 
 ul {
     display: flex;
@@ -34,19 +33,19 @@ li {
     align-items: center;
     padding: 0 5px;
 }
-li#home {
+.home {
     color: #8A53FF;
     font-weight: 400;
 }
 
-p#talk {
+
+p#talking {
     font-family: BlackSignaturePersonalUseOnly;
     margin: 0;
     font-size: 15px;
     color: #3E3E3E;
 }
-
-p#trav {
+p#travel {
     color:#8A53FF;
     font-family: Changa One, sans-serif;
     margin: 0;
