@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Blog Article Page</title>
     <link href="/project/src/styles/header.css" type="text/css" rel="stylesheet"/>
     <link href="/project/src/styles/form.css" type="text/css" rel="stylesheet"/>
     <link href="/project/src/styles/footer.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="/project/src/styles/general.css" type="text/css" rel="stylesheet"/>
     <link href="/project/src/styles/article.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
-    <header id="header">
-        <div id="header-section">
-            <div id="name">
-                <p id="talk">Talking</p>
-                <p id="trav">Travel</p>
+    <header class="header">
+        <div class="header-section">
+            <div class="name">
+                <p id="talking">Talking</p>
+                <p id="travel">Travel</p>
             </div>
            <nav id="menu">
                 <ul>
-                    <li class="purple-text">Home</li>
+                    <li class="home"><a href="index.html">Home</a></li>
                     <li>Story</li>
                     <li>Gallery</li>
                     <li>Contact Us</li>
@@ -32,10 +33,26 @@
     <div class="article">
         <div class="hero">
             <div class="hero-header">
-                <h4>POPULAR DESTINATION</h4>
-                <h1>Hello, Switzerland!</h1>
+                <div class="article-title">
+                    <h4>POPULAR DESTINATION</h4>
+                    <h1>Hello, Switzerland!</h1>
+                </div>
+                <div class="article-author">   
+                    <img class="avatar" src="/project/src/images/author.jpg">
+                    <div class="author-text">   
+                        <p id="author-name">Darrel Steward</p>
+                        <p id="author-title">Author / Photographer</p>
+                    </div>
+                </div>
             </div>
-            <img src="/project/src/images/destination.jpg" height="540px">
+            <div class="video">
+                <img class="cover-photo" src="/project/src/images/destination.jpg">
+                <h1 class="video-text">The Matterhorn</h1>
+                <button class="video-btn">
+                    <img src="/project/src/images/play-btn.png">
+                </button>
+            </div>
+            
         </div>
 
         <div class="clinsher-paragraph">
@@ -56,18 +73,19 @@
             </div>
                         
             <div class="callout-text">
-                <div class="title">
-                    <h1>One of the best hikes we’ve done so far...</h1>
+                <div class="callout-title">
+                    <img src="/project/src/images/quotes.jpg" height="26" width="36">
+                    <h1>One of the best <br/>hikes we’ve done so far...</h1>
                 </div>       
                 <div class="text">
-                    <p>As one of the alpine countries, landlocked Switzerland with her mountains has to 
+                    <p>As one of the alpine countries, landlocked Switzerland with her <br/>mountains has to 
                     compete not only with her neighbours but with other destinations. There are, e.g., 
-                    no coastal resorts. 
+                    no <br/>coastal resorts. 
                     </p>
-                    <p>The advantage is that tourism in Switzerland benefits of a large diversity of 
-                    beautiful landscapes in a relatively small space.</p>
+                    <p>The advantage is that tourism in Switzerland benefits of a <br/>large diversity of 
+                    beautiful landscapes in a relatively small <br/>space.</p>
                 </div>                         
-                <button>View full gallery</button>
+                <button id="callout-btn">View full gallery</button>
             </div>                       
         </div>
 
@@ -113,42 +131,44 @@
     </div>
 
 
-    <div id="for-form">
-        <div id="form-container">
-            <div id="build-community">
-                <h4 class="join">LET'S BUILD A COMMUNITY</h4>
-                <h1 class="second-part">Join our next destination</h1>
+    <div class="for-form">
+        <div class="form-container">
+            <div class="build-community">
+                <h4>LET'S BUILD A COMMUNITY</h4>
+                <h1>Join our next destination</h1>
             </div>
 
-            <form id="destination-form">
-                <h2 class="changa-one-font">Share your story</h2>
+            <form>
+                <h2>Share your story</h2>
                 <p>Suggest a new travel destination that you want to see and we will
                 <br/>feature it in our blog.</p>
 
-                <input type="text" id="destination-name" name="destination-name" placeholder="Destination name">
+                <div class="form-fields">
+                    <input type="text" id="destination-name" name="destination-name" placeholder="Destination name">
     
-                <select id="country-destination" name="country-destination">
-                    <option value="" disabled selected>Country of Destination</option>
-                    <option value="australia">Australia</option>
-                    <option value="mexico">Mexico</option>
-                    <option value="new-zealand">New Zealand</option>
-                    <option value="brazilia">Brazilia</option>
-                </select>
-        
-                <input type="text" id="your-name" name="your-name" placeholder="Your name">
-        
-                <select id="shooting-category" name="shooting-category">
-                    <option value="" disabled selected>Shooting category</option>
-                    <option value="nature">Nature</option>
-                    <option value="architecture">Architecture</option>
-                    <option value="people">People</option>
-                    <option value="wildlife">Wildlife</option>
-                </select>
-                        
-                <textarea id="photo-description" name="photo-description" rows="4" 
-                placeholder="Describe what kind of photos you want to focus on"></textarea>
-        
-                <button type="submit">Submit</button>
+                    <select id="country-destination" name="country-destination">
+                        <option value="" disabled selected>Country of Destination</option>
+                        <option value="australia">Australia</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="new-zealand">New Zealand</option>
+                        <option value="brazilia">Brazilia</option>
+                    </select>
+            
+                    <input type="text" id="your-name" name="your-name" placeholder="Your name">
+            
+                    <select id="shooting-category" name="shooting-category">
+                        <option value="" disabled selected>Shooting category</option>
+                        <option value="nature">Nature</option>
+                        <option value="architecture">Architecture</option>
+                        <option value="people">People</option>
+                        <option value="wildlife">Wildlife</option>
+                    </select>
+                            
+                    <textarea id="photo-description" name="photo-description" rows="4" 
+                    placeholder="Describe what kind of photos you want to focus on"></textarea>
+                </div>
+                
+                <button class="submit-btn">Submit</button>
             </form>
         </div>
     </div>
