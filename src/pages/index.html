@@ -3,22 +3,22 @@
 
 <head>
     <title>Home Page</title>
-    <link href="/project/src/styles/general.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/src/styles/header.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/src/styles/next-trip.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/src/styles/destination.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/src/styles/discover-the-world-section.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/src/styles/form.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/src/styles/catchup.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/src/styles/footer.css" type="text/css" rel="stylesheet"/>  
+    <link href="../styles/general/features.css" type="text/css" rel="stylesheet"/>
+    <link href="../styles/general/header.css" type="text/css" rel="stylesheet"/>
+    <link href="../styles/main-page/next-trip.css" type="text/css" rel="stylesheet"/>
+    <link href="../styles/main-page/destination.css" type="text/css" rel="stylesheet"/>
+    <link href="../styles/main-page/discover-the-world-section.css" type="text/css" rel="stylesheet"/>
+    <link href="../styles/general/form.css" type="text/css" rel="stylesheet"/>
+    <link href="../styles/main-page/catchup.css" type="text/css" rel="stylesheet"/>
+    <link href="../styles/general/footer.css" type="text/css" rel="stylesheet"/>  
 </head>
 
 <body>
     <header class="header">
         <div class="header-section">
             <div class="name">
-                <p id="talking">Talking</p>
-                <p id="travel">Travel</p>
+                <p class="talking"><a href="index.html">Talking</a></p>
+                <p class="travel"><a href="index.html">Travel</a></p>
             </div>
            <nav>
                 <ul>
@@ -26,8 +26,8 @@
                     <li><a href="blog-article-page.html">Story</a></li>
                     <li>Gallery</li>
                     <li>Contact Us</li>
-                    <li><img src="/project/src/images/lupa.jpg" width="20" height="20"> </li>
-                    <li><img src="/project/src/images/profile.jpg" width="20" height="20"> </li>
+                    <li><img src="../images/lupa.jpg" width="20" height="20"> </li>
+                    <li><img src="../images/profile.jpg" width="20" height="20"> </li>
                 </ul>
             </nav>
         </div>
@@ -41,7 +41,7 @@
                 feature it in our next blog!</p>
             <div class="button-block">
                 <button id="colored-btn">Share your story</button>
-                <button id="transparent-btn"><img src="/project/src/images/button.jpg" height="20"> 
+                <button id="transparent-btn"><img src="../images/button.jpg" height="20"> 
                     Watch highlights
                 </button>
             </div>
@@ -50,7 +50,7 @@
 
     <!-- Блок с Альпами -->
     <div class="destination">
-        <img src="/project/src/images/destination.jpg" class="person">
+        <img src="src/images/destination.jpg" class="person">
         <div class="destination-blurb">
             <h4>FEATURED DESTINATION</h4>
             <h1>Our swiss adventure blog</h1>
@@ -59,7 +59,7 @@
                 <br/>Our blog might help!
             </p>
 
-            <button id="cta-btn"><img src="/project/src/images/round-button.jpg" height="34"> Watch now</button>
+            <button id="cta-btn"><img src="src/images/round-button.jpg" height="34"> Watch now</button>
 
         </div>
     </div>
@@ -73,7 +73,7 @@
 
         <div class="location-card">
             <div class="card">
-                <img src="/project/src/images/iceland.jpg" class="photo">
+                <img src="src/images/iceland.jpg" class="photo">
                 <div class="card-title">
                     <p class="location-name">Iceland</p>
                     <p class="discover-link">Discover</p>
@@ -81,7 +81,7 @@
             </div>
                         
             <div class="card">                        
-                <img src="/project/src/images/italy.png" class="photo">
+                <img src="src/images/italy.png" class="photo">
                 <div class="card-title">
                     <p class="location-name">Italy</p>
                     <p class="discover-link">Discover</p>
@@ -89,7 +89,7 @@
             </div>
 
             <div class="card">
-                <img src="/project/src/images/dubai.png" class="photo">
+                <img src="src/images/dubai.png" class="photo">
                 <div class="card-title">
                     <p class="location-name">Dubai</p>
                     <p class="discover-link">Discover</p> 
@@ -97,7 +97,7 @@
             </div>
 
             <div class="card">
-                <img src="/project/src/images/patagonia.jpg" class="photo">
+                <img src="src/images/patagonia.jpg" class="photo">
                 <div class="card-title">
                     <p class="location-name">Patagonia</p>
                     <p class="discover-link">Discover</p>
@@ -159,14 +159,14 @@
 
         <div class="articles">
             <div class="main-article">
-                <img src="/project/src/images/switzerland.jpg" width="560" height="358">
+                <img src="src/images/switzerland.jpg" width="560" height="358">
                 <h2>Zermatt, Switzerland</h2>
                 <p>Marvel on the beauty of the iconic Matterhorn. 
                 Find the best places to stay that has<br/>the best views of this peak...</p>
             </div>
             <div class="group-of-articles">
                 <div class="story">
-                    <img src="/project/src/images/italy.png">
+                    <img src="src/images/italy.png">
                     <div class="story-text">
                         <h4>Tuskany, Italy</h4>
                         <p>The amazing Tuscany is home to famous Renaissance art and
@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <div class="story">
-                    <img src="/project/src/images/kyoto.jpg">
+                    <img src="src/images/kyoto.jpg">
                     <div class="story-text">
                         <h4>Kyoto, Japan</h4>
                         <p>Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. 
@@ -182,7 +182,7 @@
                     </div>  
                 </div>
                 <div class="story">
-                    <img src="/project/src/images/norway.jpg">
+                    <img src="src/images/norway.jpg">
                     <div class="story-text">
                         <h4>Lofoten Islands, Norway</h4>
                         <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing 
@@ -198,7 +198,7 @@
             <p>© 2022, Talking Travel. All Rights Reserved.</p>
         </div>
         <ul class="footer-menu">
-            <li>Home</li>
+            <li><a href="index.html">Home</a></li>
             <li>Blog</li>
             <li>Gallery</li>
             <li>Contact Us</li>
