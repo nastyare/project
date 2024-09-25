@@ -99,6 +99,7 @@ p#author-title {
     opacity: 0.8; 
     border: none;
     background: none;
+    cursor: pointer;
 }
 .video-btn img {
     width: 100px; 
@@ -197,6 +198,7 @@ button#callout-btn {
     height: 46px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 

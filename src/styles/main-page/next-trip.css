@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 550px;
-    background-image: url("/project/src/images/nextTrip.jpg");
+    background-image: url("../../images/trip.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
 }
@@ -38,6 +38,7 @@
     height: 46px;
     margin-left: 124px;
     margin-top: 34px;
+    cursor: pointer;
 }
 button#colored-btn {
     background-color: #8A53FF;
@@ -49,6 +50,7 @@ button#colored-btn {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
 }
 button#transparent-btn {
     display: flex;
@@ -61,5 +63,6 @@ button#transparent-btn {
     font-weight: 400;
     padding: 10px;
     border: none;
-    gap: 10px; 
+    gap: 10px;
+    cursor: pointer; 
 }

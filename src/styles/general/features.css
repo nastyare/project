@@ -9,15 +9,15 @@ a {
 
 @font-face {
     font-family: "BlackSignaturePersonalUseOnly";
-    src: url('/project/src/fonts/BlackSignaturePersonalUseOnlyRegular.otf');
+    src: url('../../fonts/BlackSignaturePersonalUseOnlyRegular.otf');
 }
 @font-face {
     font-family: "Roboto";
-    src: url('/project/src/fonts/ChangaOne-Regular.ttf');
+    src: url('../../fonts/ChangaOne-Regular.ttf');
 }
 @font-face {
     font-family: "Changa One";
-    src: url('/project/src/fonts/ChangaOne-Regular.ttf');
+    src: url('../../fonts/ChangaOne-Regular.ttf');
 }
 
 
