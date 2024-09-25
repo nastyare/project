@@ -3,19 +3,23 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     height: 50px;
+    font-family: Roboto, sans-serif;
+    color:#939EB4;
 }
 
 .info {
     width: 400px;
     margin-left: 60px;
     margin-top: 15px;
-    color: #939EB4;
 }
 
 .footer-menu {
     align-items: flex-start;
     margin-top: 12px;
     margin-right: 120px;
-    color: #939EB4;
     width: 300px;
 }
+
+.footer-menu a {
+     color:#939EB4;
+ }
