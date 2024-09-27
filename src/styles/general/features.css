@@ -2,6 +2,7 @@
     margin: 0;
     overflow-x: hidden;
 }
+
 a {
     text-decoration: none;
     color: #000;
@@ -11,21 +12,13 @@ a {
     font-family: "BlackSignaturePersonalUseOnly";
     src: url('../../fonts/BlackSignaturePersonalUseOnlyRegular.otf');
 }
+
 @font-face {
     font-family: "Roboto";
-    src: url('../../fonts/ChangaOne-Regular.ttf');
+    src: url('../../fonts/Roboto.ttf');
 }
+
 @font-face {
     font-family: "Changa One";
     src: url('../../fonts/ChangaOne-Regular.ttf');
 }
-
-
-
-
-
-
-
-
-
-
